@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter,Outlet,RouterProvider } from "react-router-dom";
-import Accordian from "./components/accordian";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Body from "./components/body";
+import Accordion from "./components/Accordion";
 
 const AppLayout=()=>{
     return (
@@ -27,7 +27,7 @@ const AppRouter=createBrowserRouter([
             },
             {
                 path:"accordian",
-                element:<Accordian/>
+                element:<Accordion/>
             }
         ]
     }
