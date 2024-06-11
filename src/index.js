@@ -6,6 +6,7 @@ import Header from "./components/header";
 import Body from "./components/body";
 import Accordion from "./components/Accordion";
 import ImageSlider from "./components/image_slider";
+import InfiniteScrolling from "./components/infinite_scrolling";
 
 const AppLayout=()=>{
     return (
@@ -33,6 +34,10 @@ const AppRouter=createBrowserRouter([
             {
                 path:"image_slider",
                 element:<ImageSlider/>
+            },
+            {
+                path: "infinite_scrolling",
+                element:<InfiniteScrolling/>
             }
         ]
     }
