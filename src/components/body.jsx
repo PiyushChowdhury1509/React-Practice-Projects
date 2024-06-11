@@ -8,6 +8,7 @@ const Body=()=>{
             <li><Link to={"/accordian"}>Accordian</Link></li>
             <li><Link to={"/image_slider"}>Image Slider</Link></li>
             <li><Link to={"/infinite_scrolling"}>Infinite Scrolling</Link></li>
+            <li><Link to={"/star_rating"}>Star Rating</Link></li>
         </ul>
 
         </>

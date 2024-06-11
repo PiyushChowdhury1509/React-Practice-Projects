@@ -7,6 +7,7 @@ import Body from "./components/body";
 import Accordion from "./components/Accordion";
 import ImageSlider from "./components/image_slider";
 import InfiniteScrolling from "./components/infinite_scrolling";
+import StarRating from "./components/star_rating";
 
 const AppLayout=()=>{
     return (
@@ -38,6 +39,10 @@ const AppRouter=createBrowserRouter([
             {
                 path: "infinite_scrolling",
                 element:<InfiniteScrolling/>
+            },
+            {
+                path: "star_rating",
+                element:<StarRating/>
             }
         ]
     }
