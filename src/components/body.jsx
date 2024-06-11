@@ -5,6 +5,7 @@ const Body=()=>{
         <>
         <ul>
             <li><Link to={"/accordian"}>Accordian</Link></li>
+            <li><Link to={"/image_slider"}>Image Slider</Link></li>
         </ul>
         </>
     )

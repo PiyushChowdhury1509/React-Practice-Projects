@@ -5,6 +5,7 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 import Body from "./components/body";
 import Accordion from "./components/Accordion";
+import ImageSlider from "./components/image_slider";
 
 const AppLayout=()=>{
     return (
@@ -28,6 +29,10 @@ const AppRouter=createBrowserRouter([
             {
                 path:"accordian",
                 element:<Accordion/>
+            },
+            {
+                path:"image_slider",
+                element:<ImageSlider/>
             }
         ]
     }
