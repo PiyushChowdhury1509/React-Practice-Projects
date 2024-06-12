@@ -5,7 +5,7 @@ const StarRating=()=>{
     let n=5;
     let [click,setClick]=useState(0);
     let [hover,setHover]=useState(0);
-
+    
     const handleClick=(idx)=>{
         setClick(idx+1);
     }

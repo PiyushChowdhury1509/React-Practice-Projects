@@ -9,6 +9,7 @@ const Body=()=>{
             <li><Link to={"/image_slider"}>Image Slider</Link></li>
             <li><Link to={"/infinite_scrolling"}>Infinite Scrolling</Link></li>
             <li><Link to={"/star_rating"}>Star Rating</Link></li>
+            <li><Link to={"/bg_changer"}>Background Changer</Link></li>
         </ul>
 
         </>

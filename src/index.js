@@ -8,6 +8,7 @@ import Accordion from "./components/Accordion";
 import ImageSlider from "./components/image_slider";
 import InfiniteScrolling from "./components/infinite_scrolling";
 import StarRating from "./components/star_rating";
+import BgChanger from "./components/bg_changer";
 
 const AppLayout=()=>{
     return (
@@ -43,6 +44,10 @@ const AppRouter=createBrowserRouter([
             {
                 path: "star_rating",
                 element:<StarRating/>
+            },
+            {
+                path: "bg_changer",
+                element: <BgChanger/>
             }
         ]
     }
