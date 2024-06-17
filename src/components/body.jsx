@@ -10,6 +10,7 @@ const Body=()=>{
             <li><Link to={"/infinite_scrolling"}>Infinite Scrolling</Link></li>
             <li><Link to={"/star_rating"}>Star Rating</Link></li>
             <li><Link to={"/bg_changer"}>Background Changer</Link></li>
+            <li><Link to={"/password_picker"}>Password Picker</Link></li>
         </ul>
 
         </>

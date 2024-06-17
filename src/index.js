@@ -9,6 +9,7 @@ import ImageSlider from "./components/image_slider";
 import InfiniteScrolling from "./components/infinite_scrolling";
 import StarRating from "./components/star_rating";
 import BgChanger from "./components/bg_changer";
+import PasswordPicker from "./components/password_picker";
 
 const AppLayout=()=>{
     return (
@@ -48,6 +49,10 @@ const AppRouter=createBrowserRouter([
             {
                 path: "bg_changer",
                 element: <BgChanger/>
+            },
+            {
+                path:"password_picker",
+                element: <PasswordPicker/>
             }
         ]
     }
